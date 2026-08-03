@@ -83,6 +83,6 @@ _(เกณฑ์อ้างอิงอาจารย์ ข้อ 5.2 ระ
 
 
 ## 🔗 Project Artifacts
-- Source code: 'Sourcecode.ipynb'
+- Source code: https://github.com/preemphatp/Mini_Project/blob/0a61c76f743686f789ad2d9e2e2f013bdaf4d33d/Sourcecode.ipynb
 - Colab: https://colab.research.google.com/drive/1LOKipuF8xDFdfD48ONYmXsRcu3MrwFE3?usp=sharing
 - Slide/เอกสารนำเสนอ: https://canva.link/6khqfffvt62hysp
