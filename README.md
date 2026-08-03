@@ -1,7 +1,7 @@
 # ระบบแจ้งเตือนเครื่องซักผ้าร้านหยอดเหรียญ
 ### Mini Project — Script Programming (CP352301) Sec.2 | กลุ่ม 3 | Session 1
 
-## 👥 สมาชิกกลุ่มและหน้าที่
+##  สมาชิกกลุ่มและหน้าที่
 | ชื่อ-สกุล | เลขที่ | หน้าที่ |
 |---|---|---|
 | นางสาวพิชยา สิทธิพันธ์ | 23 | Planner (วางแผน) |
@@ -24,14 +24,14 @@
 
 | Task | Feature | Persona เป้าหมาย | LO ที่เกี่ยวข้อง | สถานะ |
 |---|---|---|---|---|
-| TASK-01 | System Immutable Config (`VALID_STATUSES` frozenset, `ADMIN_ACCOUNT` tuple) | ผู้ดูแลระบบ | LO1 (Data Structures) | ✅ Done |
-| TASK-02 | Machine State Dictionary (`machines` nested dict, 10 เครื่อง) | ระบบ/ทั้งหมด | LO1 (Data Structures) | ✅ Done |
-| TASK-03 | Check Available Engine (`get_available_machines`, set comprehension) | กลุ่ม A (ลูกค้าก่อนมาร้าน) | LO2 (Set Manipulation) | ✅ Done |
-| TASK-04 | My Machine Tracking (`check_my_machine`, defensive lookup) | กลุ่ม B (ลูกค้าที่กำลังซัก) | LO4 (Defensive Coding) | ✅ Done |
-| TASK-05 | Admin Authentication (`admin_login`, while loop + tuple unpacking) | ผู้ดูแลร้าน | LO3 & LO4 (Control Flow) | ✅ Done |
-| TASK-06 | Status Update Engine (`update_status`, frozenset membership test) | ผู้ดูแลร้าน | LO2 & LO4 (Validation) | ✅ Done |
-| TASK-07 | Interactive CLI Interface (`main`, while True + try/except) | ทุกผู้ใช้งาน | LO3 & LO4 (UI/Error) | ✅ Done |
-| TASK-08 | บันทึก AI Log และ Reflection | ทั้งกลุ่ม | LO5 (Process Tracking) | 🔄 In Progress |
+| TASK-01 | System Immutable Config (`VALID_STATUSES` frozenset, `ADMIN_ACCOUNT` tuple) | ผู้ดูแลระบบ | LO1 (Data Structures) | Done |
+| TASK-02 | Machine State Dictionary (`machines` nested dict, 10 เครื่อง) | ระบบ/ทั้งหมด | LO1 (Data Structures) | Done |
+| TASK-03 | Check Available Engine (`get_available_machines`, set comprehension) | กลุ่ม A (ลูกค้าก่อนมาร้าน) | LO2 (Set Manipulation) | Done |
+| TASK-04 | My Machine Tracking (`check_my_machine`, defensive lookup) | กลุ่ม B (ลูกค้าที่กำลังซัก) | LO4 (Defensive Coding) | Done |
+| TASK-05 | Admin Authentication (`admin_login`, while loop + tuple unpacking) | ผู้ดูแลร้าน | LO3 & LO4 (Control Flow) | Done |
+| TASK-06 | Status Update Engine (`update_status`, frozenset membership test) | ผู้ดูแลร้าน | LO2 & LO4 (Validation) | Done |
+| TASK-07 | Interactive CLI Interface (`main`, while True + try/except) | ทุกผู้ใช้งาน | LO3 & LO4 (UI/Error) | Done |
+| TASK-08 | บันทึก AI Log และ Reflection | ทั้งกลุ่ม | LO5 (Process Tracking) | In Progress |
 
 **รอบการทำงานแต่ละ Task:**
 `หยิบ 1 Task (WIP=1)` → `ถาม AI (บันทึกใน learning_log)` → `ทดสอบโค้ด (เช็ค edge case)` → `บันทึก & Commit (อัปเดต Changelog)`
@@ -59,9 +59,9 @@ _(อ้างอิงเกณฑ์อาจารย์ ข้อ 5.1 ระ
 
 ---
 
-## ✅ Group Self-Assessment (0–10)
+## Group Self-Assessment (0–10)
 
-> ⚠️ คะแนนด้านล่างเป็น**ร่างเบื้องต้นตามหลักฐานที่มี** (โค้ดรันได้ครบ, มี LO/rubric/kanban ครบ, แต่ learning log ยังไม่สมบูรณ์) **กลุ่มควรประชุมทบทวนและปรับคะแนน/เหตุผลให้ตรงกับความเป็นจริงก่อนส่งจริง**
+> คะแนนด้านล่างเป็น**ร่างเบื้องต้นตามหลักฐานที่มี** (โค้ดรันได้ครบ, มี LO/rubric/kanban ครบ, แต่ learning log ยังไม่สมบูรณ์) **กลุ่มควรประชุมทบทวนและปรับคะแนน/เหตุผลให้ตรงกับความเป็นจริงก่อนส่งจริง**
 
 | หัวข้อ | น้ำหนัก | คะแนนกลุ่ม (0-10) | เหตุผล |
 |---|---|---|---|
@@ -71,9 +71,9 @@ _(อ้างอิงเกณฑ์อาจารย์ ข้อ 5.1 ระ
 | ภาพรวมงานกลุ่มทั้งหมด | 10% | 8 | งานเสร็จตรงเวลา ทำงานร่วมกันตามหน้าที่ที่แบ่งไว้ (Planner/Coder/Debugger) |
 | **รวม (ถ่วงน้ำหนัก)** | 100% | **≈ 8.0 / 10** | |
 
-## 🙋 Individual Self-Assessment (0–10)
+## Individual Self-Assessment (0–10)
 
-> ⚠️ เป็นคะแนนร่างตามหน้าที่ที่ลงทะเบียนไว้ **แต่ละคนควรปรับคะแนน/เหตุผลด้วยตนเองให้ตรงกับสิ่งที่ทำจริง**
+> เป็นคะแนนร่างตามหน้าที่ที่ลงทะเบียนไว้ **แต่ละคนควรปรับคะแนน/เหตุผลด้วยตนเองให้ตรงกับสิ่งที่ทำจริง**
 
 | ชื่อ | หน้าที่ | ด้านความรับผิดชอบ | ด้านการมีส่วนร่วมและการทำงานเป็นทีม | ด้านการสื่อสารและทัศนคติ | รวม | 
 |---|---|---|---|---|---|
@@ -93,7 +93,7 @@ python washing_machine_notifier.py
 ```
 
 ## 🔗 Project Artifacts
-- Source code: `mini_project_original_organized.ipynb`
-- Colab: _แนบลิงก์_
-- Slide/เอกสารนำเสนอ: _แนบลิงก์_
+- Source code: `Sourcecode.ipynb`
+- Colab: (https://colab.research.google.com/drive/1LOKipuF8xDFdfD48ONYmXsRcu3MrwFE3?usp=sharing)
+- Slide/เอกสารนำเสนอ: (https://canva.link/6khqfffvt62hysp)
 - Video/Demo (ถ้ามี): _แนบลิงก์_
