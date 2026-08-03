@@ -1,7 +1,6 @@
 # Changelog: Laundromat Notification System
-โปรเจกต์: ระบบแจ้งเตือนเครื่องซักผ้าร้านหยอดเหรียญ | กลุ่ม 3
+โปรเจกต์: ระบบแจ้งเตือนเครื่องซักผ้าร้าน
 
-รูปแบบอ้างอิงจาก [Keep a Changelog](https://keepachangelog.com/)
 
 ## [v1.0.0] - 2026-08-02
 ### Added
