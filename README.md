@@ -86,4 +86,3 @@ _(เกณฑ์อ้างอิงอาจารย์ ข้อ 5.2 ระ
 - Source code: https://github.com/preemphatp/Mini_Project/blob/16c0f7c53bd3ea1e60941f409e49cbe1aa55c75a/Sourcecode.ipynb
 - Colab: https://colab.research.google.com/drive/1LOKipuF8xDFdfD48ONYmXsRcu3MrwFE3?usp=sharing
 - Slide/เอกสารนำเสนอ: https://canva.link/6khqfffvt62hysp
-
