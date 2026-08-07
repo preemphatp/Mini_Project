@@ -1,4 +1,4 @@
-# Changelog: Laundromat Notification System
+# Changelog: ระบบแจ้งเตือนเครื่องซักผ้
 โปรเจกต์: ระบบแจ้งเตือนเครื่องซักผ้า | กลุ่ม 3
 
 ## [v1.0.0] - 2026-08-02 — Release แรกที่ทดสอบสมบูรณ์
